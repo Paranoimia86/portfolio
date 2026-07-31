@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ing. Peter Petráš - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <div class="container header__inner">
+        <a href="#home" class="logo">Ing. Peter Petráš</a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active" data-i18n="nav.home"
+                >Domov</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav__link" data-i18n="nav.about">O mne</a>
+            </li>
+            <li>
+              <a href="#education" class="nav__link" data-i18n="nav.education"
+                >Vzdelanie</a
+              >
+            </li>
+            <li>
+              <a href="#tools" class="nav__link" data-i18n="nav.tools"
+                >Nástroje</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="nav__link" data-i18n="nav.projects"
+                >Projekty</a
+              >
+            </li>
+            <li>
+              <a href="#hobby" class="nav__link" data-i18n="nav.hobby">Hobby</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link" data-i18n="nav.contact"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="lang-switch" id="lang-switch">
+          <button type="button" class="lang-switch__btn active" data-lang="sk">
+            SK
+          </button>
+          <button type="button" class="lang-switch__btn" data-lang="en">
+            EN
+          </button>
+        </div>
+
+        <button
+          class="burger"
+          id="burger"
+          data-i18n-aria="burger.open"
+          aria-label="Otvoriť menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- HOME / HERO -->
+      <section class="hero" id="home">
+        <div class="container hero__inner">
+          <div class="hero__text">
+            <p class="hero__greeting" data-i18n="hero.greeting">
+              Ahoj, volám sa
+            </p>
+            <h1 class="hero__name">Peter Petráš</h1>
+            <h2 class="hero__role">Full-Stack Developer</h2>
+            <p class="hero__desc" data-i18n="hero.desc">
+              Vitajte na mojom osobnom webe. Nájdete tu informácie o mne, mojom
+              vzdelaní, nástrojoch, ktoré používam, projektoch, na ktorých som
+              pracoval, a mojich záľubách.
+            </p>
+            <a href="#about" class="btn" data-i18n="hero.cta">Zistiť viac</a>
+            <a
+              href="cv-sk.pdf"
+              download
+              class="btn btn--outline"
+              id="cv-download-btn"
+              data-i18n="hero.download"
+              >Stiahnuť CV (PDF)</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- O MNE -->
+      <section class="section" id="about">
+        <div class="container">
+          <h2 class="section__title" data-i18n="about.title">O mne</h2>
+          <div class="about">
+            <div class="about__image">
+              <img
+                src="/Foto/Other/Me.jpg"
+                alt="Ing. Peter Petráš"
+                class="about__photo"
+              />
+            </div>
+            <div class="about__content">
+              <p data-i18n="about.text">
+                Som absolvent Technickej univerzity v Košiciach s titulom Ing. a
+                nadšením pre vývoj webových aplikácií a moderné technológie. Rád
+                vytváram webové riešenia, spoznávam nové nástroje a neustále
+                rozvíjam svoje technické zručnosti. Som pracovitý, tímovo
+                orientovaný a motivovaný neustále sa zlepšovať. Hľadám
+                príležitosť začať svoju kariéru ako Junior Full-Stack/Web
+                Developer a podieľať sa na vývoji kvalitných softvérových
+                riešení.
+              </p>
+              <ul class="about__info">
+                <li>
+                  <strong data-i18n="about.labelName">Meno:</strong> Ing. Peter
+                  Petráš
+                </li>
+                <li>
+                  <strong data-i18n="about.labelEmail">Email:</strong>
+                  peto.petras96@gmail.com
+                </li>
+                <li>
+                  <strong data-i18n="about.labelCity">Mesto:</strong>
+                  Michalovce
+                </li>
+                <li>
+                  <strong data-i18n="about.labelLocation">Lokalita:</strong>
+                  <span data-i18n="about.location">Slovensko</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VZDELANIE -->
+      <section class="section section--alt" id="education">
+        <div class="container">
+          <h2 class="section__title" data-i18n="education.title">Vzdelanie</h2>
+          <div class="timeline">
+            <div class="timeline__item">
+              <span class="timeline__date" data-i18n="education.date1"
+                >2017 – 2021</span
+              >
+              <h3 class="timeline__title" data-i18n="education.item1Title">
+                Gymnázium Pavla Horova, Michalovce
+              </h3>
+              <p class="timeline__desc" data-i18n="education.item1Desc">
+                Trieda so všeobecným zameraním
+              </p>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__date" data-i18n="education.date2"
+                >2021 – 2026</span
+              >
+              <h3 class="timeline__title" data-i18n="education.item2Title">
+                Technická univerzita v Košiciach
+              </h3>
+              <p class="timeline__desc" data-i18n="education.item2Desc">
+                Fakulta elektrotechniky a informatiky, študijný program
+                Informatika
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NÁSTROJE -->
+      <section class="section" id="tools">
+        <div class="container">
+          <h2 class="section__title" data-i18n="tools.title">Nástroje</h2>
+          <div class="tools">
+            <div class="tool">
+              <i class="devicon-html5-plain colored tool__icon"></i>
+              <span class="tool__name">HTML</span>
+            </div>
+            <div class="tool">
+              <i class="devicon-css3-plain colored tool__icon"></i>
+              <span class="tool__name">CSS</span>
+            </div>
+            <div class="tool">
+              <i class="devicon-javascript-plain colored tool__icon"></i>
+              <span class="tool__name">JavaScript</span>
+            </div>
+            <div class="tool">
+              <i class="devicon-git-plain colored tool__icon"></i>
+              <span class="tool__name">Git</span>
+            </div>
+            <div class="tool">
+              <i class="devicon-github-original tool__icon"></i>
+              <span class="tool__name">GitHub</span>
+            </div>
+            <div class="tool">
+              <i class="devicon-figma-plain colored tool__icon"></i>
+              <span class="tool__name">Figma</span>
+            </div>
+            <div class="tool">
+              <i class="devicon-react-original colored tool__icon"></i>
+              <span class="tool__name">React</span>
+            </div>
+            <div class="tool">
+              <i class="devicon-nodejs-plain colored tool__icon"></i>
+              <span class="tool__name">Node.js</span>
+            </div>
+            <div class="tool">
+              <i class="devicon-mongodb-plain colored tool__icon"></i>
+              <span class="tool__name">MongoDB</span>
+            </div>
+            <div class="tool">
+              <i class="devicon-postgresql-plain colored tool__icon"></i>
+              <span class="tool__name">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJEKTY -->
+      <section class="section section--alt" id="projects">
+        <div class="container">
+          <h2 class="section__title" data-i18n="projects.title">Projekty</h2>
+          <div class="projects">
+            <article class="project-card">
+              <div
+                class="project-card__image project-card__carousel"
+                data-carousel
+              >
+                <img
+                  src="Foto/Projects/SAAS-home.JPG"
+                  alt="SAAS projekt - domovská stránka"
+                  class="carousel-slide active"
+                />
+                <img
+                  src="Foto/Projects/SAAS-login.JPG"
+                  alt="SAAS projekt - prihlásenie"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/SAAS-register.JPG"
+                  alt="SAAS projekt - registrácia"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/SAAS-members.JPG"
+                  alt="SAAS projekt - členovia"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/SAAS-projects.JPG"
+                  alt="SAAS projekt - projekty"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/SAAS-profile.JPG"
+                  alt="SAAS projekt - profil"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/SAAS-settings.JPG"
+                  alt="SAAS projekt - nastavenia"
+                  class="carousel-slide"
+                />
+                <button
+                  type="button"
+                  class="carousel-btn carousel-btn--prev"
+                  aria-label="Predchádzajúci obrázok"
+                >
+                  &#10094;
+                </button>
+                <button
+                  type="button"
+                  class="carousel-btn carousel-btn--next"
+                  aria-label="Nasledujúci obrázok"
+                >
+                  &#10095;
+                </button>
+              </div>
+              <div class="project-card__content">
+                <h3 data-i18n="projects.cardTitle1">Názov projektu</h3>
+                <p data-i18n="projects.cardDesc1">
+                  Krátky popis projektu a použitých technológií.
+                </p>
+                <ul class="project-card__tags">
+                  <li><i class="devicon-react-original colored"></i> React</li>
+                  <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+                  <li>
+                    <i class="devicon-express-original"></i>
+                    Express
+                  </li>
+                  <li>
+                    <i class="devicon-mongodb-plain colored"></i>
+                    MongoDB
+                  </li>
+                </ul>
+                <a href="#" class="link" data-i18n="projects.cardLink"
+                  >Zobraziť projekt →</a
+                >
+              </div>
+            </article>
+            <article class="project-card">
+              <div
+                class="project-card__image project-card__carousel"
+                data-carousel
+              >
+                <img
+                  src="Foto/Projects/EW-home.JPG"
+                  alt="Edukačný web - domovská stránka"
+                  class="carousel-slide active"
+                />
+                <img
+                  src="Foto/Projects/EW-home2.JPG"
+                  alt="Edukačný web - domovská stránka 2"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-login.JPG"
+                  alt="Edukačný web - prihlásenie"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-register.JPG"
+                  alt="Edukačný web - registrácia"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-informations.JPG"
+                  alt="Edukačný web - informácie"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-lecture.JPG"
+                  alt="Edukačný web - prednáška"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-excercise.JPG"
+                  alt="Edukačný web - cvičenie"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-assigment.JPG"
+                  alt="Edukačný web - zadanie"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-test.JPG"
+                  alt="Edukačný web - test"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-settings.JPG"
+                  alt="Edukačný web - nastavenia"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-settings2.JPG"
+                  alt="Edukačný web - nastavenia 2"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-admin_panel.JPG"
+                  alt="Edukačný web - administrátorský panel"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-profesor-home.JPG"
+                  alt="Edukačný web - domovská stránka profesora"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-professor-list.JPG"
+                  alt="Edukačný web - zoznam profesorov"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-professor-lecture-list.JPG"
+                  alt="Edukačný web - zoznam prednášok profesora"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-professor-lecture-edit.JPG"
+                  alt="Edukačný web - úprava prednášky profesora"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-professor-test-list.JPG"
+                  alt="Edukačný web - zoznam testov profesora"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/EW-professor-test-edit.JPG"
+                  alt="Edukačný web - úprava testu profesora"
+                  class="carousel-slide"
+                />
+                <button
+                  type="button"
+                  class="carousel-btn carousel-btn--prev"
+                  aria-label="Predchádzajúci obrázok"
+                >
+                  &#10094;
+                </button>
+                <button
+                  type="button"
+                  class="carousel-btn carousel-btn--next"
+                  aria-label="Nasledujúci obrázok"
+                >
+                  &#10095;
+                </button>
+              </div>
+              <div class="project-card__content">
+                <h3 data-i18n="projects.cardTitle2">
+                  Edukačný web v oblasti skriptovania
+                </h3>
+                <p data-i18n="projects.cardDesc2">
+                  Webová aplikácia zameraná na vzdelávanie v oblasti
+                  skriptovania a programovania, využívajúca moderné technológie
+                  a interaktívne prvky.
+                </p>
+                <ul class="project-card__tags">
+                  <li><i class="devicon-react-original colored"></i> React</li>
+                  <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+                  <li>
+                    <i class="devicon-postgresql-plain colored"></i>
+                    PostgreSQL
+                  </li>
+                  <li>
+                    <i class="devicon-figma-plain colored"></i>
+                    Figma
+                  </li>
+                </ul>
+                <a href="#" class="link" data-i18n="projects.cardLink"
+                  >Zobraziť projekt →</a
+                >
+              </div>
+            </article>
+            <article class="project-card">
+              <div
+                class="project-card__image project-card__carousel"
+                data-carousel
+              >
+                <img
+                  src="Foto/Projects/ESHOP-home.JPG"
+                  alt="Eshop - domovská stránka"
+                  class="carousel-slide active"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-products-list.JPG"
+                  alt="Eshop - zoznam produktov"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-product-details.JPG"
+                  alt="Eshop - detail produktu"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-categories.JPG"
+                  alt="Eshop - kategórie"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-cart.JPG"
+                  alt="Eshop - košík"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-checkout.JPG"
+                  alt="Eshop - objednávka"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-check.JPG"
+                  alt="Eshop - kontrola objednávky"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-orders.JPG"
+                  alt="Eshop - objednávky"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-register.JPG"
+                  alt="Eshop - registrácia"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-settings.JPG"
+                  alt="Eshop - nastavenia"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-admin-panel.JPG"
+                  alt="Eshop - administrátorský panel"
+                  class="carousel-slide"
+                />
+                <img
+                  src="Foto/Projects/ESHOP-admin-panel2.JPG"
+                  alt="Eshop - administrátorský panel 2"
+                  class="carousel-slide"
+                />
+                <button
+                  type="button"
+                  class="carousel-btn carousel-btn--prev"
+                  aria-label="Predchádzajúci obrázok"
+                >
+                  &#10094;
+                </button>
+                <button
+                  type="button"
+                  class="carousel-btn carousel-btn--next"
+                  aria-label="Nasledujúci obrázok"
+                >
+                  &#10095;
+                </button>
+              </div>
+              <div class="project-card__content">
+                <h3 data-i18n="projects.cardTitle3">Názov projektu</h3>
+                <p data-i18n="projects.cardDesc3">
+                  Krátky popis projektu a použitých technológií.
+                </p>
+                <ul class="project-card__tags">
+                  <li><i class="devicon-react-original colored"></i> React</li>
+                  <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+                  <li>
+                    <i class="devicon-express-original"></i>
+                    Express
+                  </li>
+                  <li>
+                    <i class="devicon-postgresql-plain colored"></i>
+                    PostgreSQL
+                  </li>
+                  <li>
+                    <i class="devicon-docker-plain colored"></i>
+                    Docker
+                  </li>
+                </ul>
+                <a href="#" class="link" data-i18n="projects.cardLink"
+                  >Zobraziť projekt →</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOBBY -->
+      <section class="section" id="hobby">
+        <div class="container">
+          <h2 class="section__title" data-i18n="hobby.title">Hobby</h2>
+          <div class="hobbies">
+            <div class="hobby-card">
+              <span class="hobby-card__icon">&#x1F3CB;&#xFE0F;</span>
+              <p data-i18n="hobby.item1">Cvičenie</p>
+            </div>
+            <div class="hobby-card">
+              <span class="hobby-card__icon">🏊</span>
+              <p data-i18n="hobby.item2">Plávanie</p>
+            </div>
+            <div class="hobby-card">
+              <span class="hobby-card__icon">🎵</span>
+              <p data-i18n="hobby.item3">Hudba</p>
+            </div>
+            <div class="hobby-card">
+              <span class="hobby-card__icon">📚</span>
+              <p data-i18n="hobby.item4">Čítanie</p>
+            </div>
+            <div class="hobby-card">
+              <span class="hobby-card__icon">✈️</span>
+              <p data-i18n="hobby.item5">Cestovanie</p>
+            </div>
+            <div class="hobby-card">
+              <span class="hobby-card__icon">🍳</span>
+              <p data-i18n="hobby.item6">Varenie</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KONTAKT -->
+      <section class="section section--alt" id="contact">
+        <div class="container">
+          <h2 class="section__title" data-i18n="contact.title">Kontakt</h2>
+          <div class="contact">
+            <ul class="contact__list">
+              <li>
+                <span class="contact__icon">📧</span>
+                <a href="mailto:peto.petras96@gmail.com"
+                  >peto.petras96@gmail.com</a
+                >
+              </li>
+              <li>
+                <span class="contact__icon">📞</span>
+                <a href="tel:+421948252581">+421 948 252 581</a>
+              </li>
+              <li>
+                <span class="contact__icon"
+                  ><i class="fa-brands fa-instagram"></i
+                ></span>
+                <a
+                  href="https://www.instagram.com/peto_petras/"
+                  target="_blank"
+                  rel="noopener"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <span class="contact__icon"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></span>
+                <a
+                  href="https://www.linkedin.com/in/peter-petráš-aab130356/"
+                  target="_blank"
+                  rel="noopener"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <span class="contact__icon"
+                  ><i class="fa-brands fa-github"></i
+                ></span>
+                <a
+                  href="https://github.com/Paranoimia86"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Ing. Peter Petráš.
+          <span data-i18n="footer.rights">Všetky práva vyhradené.</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+      <button
+        type="button"
+        class="lightbox__close"
+        id="lightbox-close"
+        aria-label="Zavrieť"
+      >
+        &times;
+      </button>
+      <button
+        type="button"
+        class="lightbox__nav lightbox__nav--prev"
+        id="lightbox-prev"
+        aria-label="Predchádzajúci obrázok"
+      >
+        &#10094;
+      </button>
+      <img src="" alt="" class="lightbox__image" id="lightbox-image" />
+      <button
+        type="button"
+        class="lightbox__nav lightbox__nav--next"
+        id="lightbox-next"
+        aria-label="Nasledujúci obrázok"
+      >
+        &#10095;
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
