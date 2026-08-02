@@ -1,6 +1,4 @@
-# Portfolio
-
-Osobné portfólio a ukážky fullstack projektov – Ing. Peter Petráš.
+# Osobné portfólio a ukážky fullstack projektov
 
 ## O mne
 
