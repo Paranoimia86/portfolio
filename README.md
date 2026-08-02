@@ -18,7 +18,7 @@ Som absolvent Technickej univerzity v Košiciach (Fakulta elektrotechniky a info
 
 - 📧 [peto.petras96@gmail.com](mailto:peto.petras96@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/peter-petráš-aab130356/)
-- 🐙 [GitHub](https://github.com/Paranoimia86)
+- 🐙 [Instagram](https://www.instagram.com/peto_petras/)
 
 ## Projekty
 
