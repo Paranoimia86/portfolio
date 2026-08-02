@@ -1,0 +1,188 @@
+.edit-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editor-header {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #929292;
+}
+
+.edit-panel textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 5px solid #a7a7a7;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.editor-toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 5px;
+  margin-top: 5px;
+  height: 55px;
+  background-color: #223448;
+  border-radius: 15px;
+}
+
+.editor-toolbar button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: transparent;
+  border: 2px solid transparent;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.editor-toolbar button:hover {
+  background-color: #2e537b;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.editor-toolbar button:disabled {
+  color: #555555;
+  background: transparent;
+  cursor: not-allowed;
+}
+
+.editor-toolbar button.active {
+  color: #2e537b;
+  border: 2px solid #ffffff;
+}
+
+.edit-font,
+.edit-text,
+.edit-align {
+  border-right: 2px solid #ffffff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-right: 80px;
+}
+
+.edit-font select {
+  background: transparent;
+  border-bottom: 1px solid #a7a7a7;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.edit-font select:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.edit-font select option {
+  background-color: #223448;
+  color: #ffffff;
+  padding: 2px;
+}
+
+.edit-text input {
+  background: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.edit-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  height: 100%;
+}
+
+.confirm-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.confirm-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #100069;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+}
+
+.close-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.confirm-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+}
+
+.confirm-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.save-btn {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.save-btn:hover {
+  background-color: #367a3a;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cancel-btn:hover {
+  background-color: #792115;
+}

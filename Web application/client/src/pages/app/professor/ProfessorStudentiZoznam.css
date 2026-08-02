@@ -1,0 +1,127 @@
+.students-list {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  background-color: #001a42;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+
+.students-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 500px;
+}
+
+.students-header h1 {
+  color: #000000;
+  font-size: 32px;
+  padding: 14px 40px;
+  background-color: #59a3c5;
+  border-bottom-right-radius: 500px;
+  width: 558px;
+  margin: 0;
+}
+
+.group-select {
+  margin-top: 10px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 25px;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ffffff;
+}
+
+.group-select option {
+  background-color: #001a42;
+  color: #ffffff;
+  border: none;
+  padding-bottom: 5px;
+}
+
+.students-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #59a3c5;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.students-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+.students-table table th,
+.students-table table td {
+  text-align: left;
+  padding: 25px 10px;
+}
+
+.students-table td {
+  color: #000000 !important;
+  font-size: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+.more-info-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+  color: #000000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.more-info-link:hover {
+  color: #941414;
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.pagination-btn {
+  padding: 12px 24px;
+  border: 1px solid #ccc;
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffff;
+}
+
+.pagination-btn.active {
+  background-color: #4858b3;
+  color: #fff;
+  border: none;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

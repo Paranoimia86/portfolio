@@ -1,0 +1,59 @@
+.public-userbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 11%;
+  background-color: #000000;
+}
+
+.public-userbar img {
+  height: 80px;
+  padding: 10px 0;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.public-userbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-right: 50px;
+}
+
+.register-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 8px;
+  background-color: #212555;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.register-button:hover {
+  background: linear-gradient(to top, #116e77 12%, #212555 63%);
+  color: #ffffff;
+  border: 4px solid #000000;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #212555;
+  color: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.login-button:hover {
+  background: linear-gradient(to top, #116e77 12%, #212555 63%);
+  color: #ffffff;
+  border: 4px solid #000000;
+}

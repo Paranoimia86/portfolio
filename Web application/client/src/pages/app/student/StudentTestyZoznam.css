@@ -1,0 +1,135 @@
+.student-tests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tests-table-header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  padding: 20px 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #071040;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.tests-table-body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 15px;
+  background: linear-gradient(to bottom, #050e3f 0%, #939393 100%);
+  overflow-y: hidden;
+  height: 100vh;
+  border-radius: 10px;
+}
+
+.tests-card {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  align-items: center;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background-color: #f0f4ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tests-card-completed {
+  background: linear-gradient(135deg, #1e3a6e, #4a6fa5);
+  color: white;
+}
+
+.tests-card-completed svg,
+.tests-card-locked svg {
+  background-color: #d9d9d9;
+  border-radius: 40%;
+  border: none;
+  padding: 7px;
+}
+
+.tests-card-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  background-color: #262e3f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.icon-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tests-card-lock {
+  font-size: 24px;
+}
+
+.tests-card-title-wrapper {
+  font-size: 15px;
+}
+
+.tests-card-btn {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-start {
+  background-color: #244d9f;
+  color: white;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  width: 100px;
+}
+
+.btn-start:hover {
+  background-color: #79bcdb;
+  width: 100px;
+}
+
+.btn-completed {
+  background-color: #bdba00;
+  color: white;
+  width: 100px;
+}
+
+.btn-completed:hover {
+  background-color: #e5e500;
+  width: 100px;
+}
+
+.tests-card-date {
+  font-size: 18px;
+  color: inherit;
+}
+
+.tests-card-score {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tests-card-status {
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

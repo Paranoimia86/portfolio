@@ -1,0 +1,248 @@
+.admin-dashboard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.add-brand-category {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.add-brand-category form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-brand-category input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-brand-category-button {
+  padding: 8px 12px;
+  background-color: #0e79ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-brand-category-button:hover {
+  background-color: #0c5dc0;
+}
+
+.add-brand-category select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.brands-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.product-filters input,
+.product-filters select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-filters button {
+  padding: 8px 12px;
+  background-color: #ff8989;
+  border: 1px solid #d2d7e0;
+  border-radius: 4px;
+  color: #334155;
+  cursor: pointer;
+}
+
+.product-filters button:hover {
+  background-color: #e60505;
+}
+
+.add-product {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.add-product form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-product input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-product button {
+  padding: 8px 12px;
+  background-color: #0e79ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-product button:hover {
+  background-color: #0c5dc0;
+}
+
+.add-product select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-button {
+  padding: 8px 12px;
+  background-color: #0e79ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.edit-button:hover {
+  background-color: #0c5dc0;
+}
+
+.edit-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.edit-product-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.edit-product-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-product-form button {
+  padding: 8px 12px;
+  background-color: #0e79ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-product-form button:hover {
+  background-color: #0c5dc0;
+}
+
+.edit-product-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.products-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-images-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.product-images-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.add-image-button {
+  padding: 8px 12px;
+  background-color: #00b517;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-image-button:hover {
+  background-color: #009e13;
+}
+
+.delete-image-button {
+  padding: 8px 12px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-image-button:hover {
+  background-color: #e60000;
+}
+
+.delete-category-button {
+  margin-left: 10px;
+  padding: 4px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85em;
+}
+
+.delete-category-button:hover {
+  background-color: #e60000;
+}
+
+.add-image-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.product-image-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 4px;
+}

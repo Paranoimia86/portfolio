@@ -1,0 +1,29 @@
+.student-assignment-view {
+  border-top-left-radius: 10px;
+  min-width: 100vh;
+  background: linear-gradient(to top, #7390a2 19%, #0e1513 100%);
+}
+
+.assignment-week {
+  font-size: 24px;
+  margin-left: 10px;
+  color: #ff3d3d;
+  padding: 5px 8px;
+  border-radius: 10px;
+  width: fit-content;
+}
+.assignment-content {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.tree {
+  font-family: monospace;
+  background-color: #262e3f;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  white-space: pre;
+  overflow-x: auto;
+  margin: 20px 0;
+}

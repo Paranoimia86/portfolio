@@ -1,0 +1,29 @@
+.order-summary {
+  margin-top: 16px;
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.order-success-buttons {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.order-success-button {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  background-color: #00b517;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.order-success-button:hover {
+  background-color: #009e13;
+}

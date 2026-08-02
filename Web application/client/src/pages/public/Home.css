@@ -1,0 +1,33 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 89vh;
+  background-image: url("../../../public/img/Home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.home-page h1,
+.home-page p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #ffffff;
+  width: 100%;
+  margin-right: 100px;
+}
+
+.home-page h1 {
+  font-size: 64px;
+}
+
+.home-page p {
+  font-size: 16px;
+  margin-top: 5px;
+}

@@ -1,0 +1,30 @@
+.student-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../../public/img/Pozadie\ -\ Home.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 89vh;
+}
+
+.student-dashboard h1,
+.student-dashboard p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #ffffff;
+  width: 100%;
+  margin-right: 100px;
+}
+
+.student-dashboard h1 {
+  font-size: 64px;
+}
+
+.student-dashboard p {
+  font-size: 16px;
+  margin-top: 5px;
+}

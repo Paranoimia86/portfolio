@@ -1,0 +1,35 @@
+.app-shell {
+  display: flex;
+  flex-direction: row;
+  background: radial-gradient(circle, #3d81ff, #060b26);
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.app-main {
+  width: 100%;
+}
+
+.app-content {
+  padding-left: 350px;
+  margin-left: 0;
+  padding-bottom: 100px;
+}
+
+.app-shell::-webkit-scrollbar {
+  width: 10px;
+}
+
+.app-shell::-webkit-scrollbar-track {
+  background: #111827;
+  border-radius: 10px;
+}
+
+.app-shell::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 10px;
+}
+
+.app-shell::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}

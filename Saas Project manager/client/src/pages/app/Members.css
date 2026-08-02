@@ -1,0 +1,181 @@
+.add-member-topic {
+  margin-bottom: 20px;
+}
+
+.add-member-topic h1 {
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.add-member-topic p {
+  color: gray;
+  margin-bottom: 12px;
+}
+
+.add-member {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.add-member-button {
+  padding: 10px 20px;
+  background-color: #0baa20;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-button {
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.manage-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.adding-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.adding-group select {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid rgb(226, 232, 240, 0.3);
+  background-color: #0f1535;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 12px;
+  background-color: #0f1535;
+  border: 1px solid rgb(226, 232, 240, 0.3);
+  border-radius: 15px;
+}
+
+.input-group input {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.input-group input::placeholder {
+  color: #888;
+}
+
+.add-button {
+  border-radius: 15px;
+  background-color: #22c55e;
+  padding: 10px 20px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-group svg {
+  color: gray;
+  padding: 8px;
+  opacity: 0.5;
+}
+
+.members-list {
+  width: 95%;
+  background-color: #0a0e23;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.nametags {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+.nametags th,
+.one-member td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nametags th {
+  font-weight: bold;
+  color: gray;
+  font-weight: bold;
+  background-color: rgba(0, 117, 255, 0.1);
+}
+
+.one-member tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.nametags button {
+  padding: 4px 8px;
+  background-color: #971b1b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nametags button:hover {
+  background-color: #ff5252;
+}
+
+.role-owner {
+  color: #077e07; /* zelená */
+  font-weight: bold;
+}
+
+.role-admin {
+  color: #fdf900; /* modrá */
+  font-weight: bold;
+}
+
+.role-member {
+  color: #888; /* sivá */
+}
+
+.add-member-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #22c55e; /* zelená */
+  color: white;
+}
+
+.add-member-button:hover {
+  background-color: #16a34a;
+}
+
+.add-member-button.cancel {
+  background-color: #ff6b6b; /* červená */
+}
+
+.add-member-button.cancel:hover {
+  background-color: #ff5252;
+}

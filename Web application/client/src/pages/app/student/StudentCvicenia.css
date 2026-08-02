@@ -1,0 +1,33 @@
+.student-exercise-view {
+  border-top-left-radius: 10px;
+  min-width: 100vh;
+  background: linear-gradient(to top, #6688cb 0%, #1c222d 100%);
+}
+
+.exercise-week {
+  font-size: 24px;
+  margin-left: 10px;
+  color: #ff3d3d;
+  padding: 5px 8px;
+  border-radius: 10px;
+  width: fit-content;
+}
+.exercise-content {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.exercise {
+  background-color: #262e3f;
+  width: 100%;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+.exercise-topic {
+  color: #ff3d3d;
+  font-size: 28px;
+}

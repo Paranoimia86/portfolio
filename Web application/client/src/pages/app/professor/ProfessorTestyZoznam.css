@@ -1,0 +1,215 @@
+.professor-tests-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #192e57;
+  gap: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+.tests-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tests-header h1 {
+  color: #000000;
+  font-size: 32px;
+  padding: 14px 40px;
+  background-color: #ffffff;
+  border-bottom-right-radius: 500px;
+  width: 558px;
+  margin: 0;
+}
+
+.create-test {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-right: 50px;
+}
+
+.create-test button {
+  background-color: #00d257;
+  color: #000000;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.create-test button:hover {
+  background-color: #00702f;
+  color: #ffffff;
+}
+
+.create-test input {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.tests-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.tests-table table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  table-layout: fixed;
+  color: #000000;
+  font-size: 20px;
+}
+
+.tests-table table th,
+.tests-table table td {
+  text-align: left;
+  padding: 25px 10px;
+  background-color: #cdfcff;
+}
+
+.tests-table table th {
+  background-color: #85b7cb;
+  color: #000000;
+  font-size: 22px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.edit-btn {
+  background-color: #2bdf25;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.edit-btn:hover {
+  background-color: #1a8f17;
+  color: #ffffff;
+}
+.delete-btn {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.delete-btn:hover {
+  background-color: #a71d2a;
+  color: #ffffff;
+}
+.tests-stats-section {
+  width: 95%;
+  margin: 0 auto;
+}
+.tests-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  background-color: transparent;
+  border: 5px solid grey;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.stat-item p {
+  font-size: 16px;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.stat-item strong {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.confirm-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.confirm-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #100069;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+}
+
+.close-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.confirm-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+}
+
+.no-tests {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.delete-btn-confirm {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete-btn-confirm:hover {
+  background-color: #367a3a;
+}

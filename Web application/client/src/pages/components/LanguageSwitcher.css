@@ -1,0 +1,72 @@
+.language-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #212555;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.language-button:hover {
+  background-color: #474b79;
+}
+
+.language-button:hover svg {
+  rotate: -90deg;
+  transition: rotate 0.3s ease;
+}
+
+.language-switcher {
+  position: relative;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 4px;
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+.lang-option {
+  position: static;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.lang-option:hover {
+  background-color: #e0e0e0;
+}
+
+.check-icon.active {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background: #1129a4;
+}
+
+.check-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background: transparent;
+}

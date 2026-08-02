@@ -1,0 +1,88 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(90deg, #060b26, #1a1f37);
+  width: 275px;
+  text-align: center;
+  margin: 10px 0px 10px 10px;
+  border-radius: 20px;
+  height: 93vh;
+  position: fixed;
+}
+
+.navbar h2 {
+  color: #ffffff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar h4 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar button {
+  border-radius: 15px;
+  background-color: #0075ff;
+  padding: 15px;
+  color: #ffffff;
+  border: none;
+}
+
+.navbar button:hover {
+  background-color: #1156a5;
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.img {
+  background-color: #1a1f37;
+  padding: 8px;
+  border-radius: 10px;
+  color: #0075ff;
+}
+
+.section:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.section:hover {
+  background-color: rgba(202, 202, 202, 0.05);
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-link svg {
+  color: #0075ff;
+  background-color: #1a1f37;
+}
+
+.nav-link.active section {
+  background-color: #1a1f37;
+  border-radius: 10px;
+}
+
+.nav-link.active svg {
+  background-color: #0075ff;
+  color: #ffffff;
+}

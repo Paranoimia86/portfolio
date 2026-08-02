@@ -1,0 +1,68 @@
+.greet-stats {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.greet {
+  background: linear-gradient(#060b26, #1a1f37);
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.greet p {
+  color: gray;
+  width: 75%;
+}
+
+.greet img {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.greet-text {
+  width: 200px;
+  padding-left: 10px;
+}
+
+.stats {
+  background: linear-gradient(#060b26, #1a1f37);
+  color: #ffffff;
+  padding: 0 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.stats h2 {
+  margin-bottom: 30px;
+}
+
+.stats span {
+  color: gray;
+  margin-left: 5px;
+}
+
+.activity-chart {
+  background: linear-gradient(#060b26, #1a1f37);
+  color: gray;
+  padding: 15px;
+  border-radius: 10px;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.activity-chart h2 {
+  color: #ffffff;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+
+.chart {
+  width: 100%;
+  height: 300px;
+}

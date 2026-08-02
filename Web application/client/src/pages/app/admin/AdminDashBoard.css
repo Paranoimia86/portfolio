@@ -1,0 +1,112 @@
+.admin-dashboard {
+  background-color: #33398d;
+  height: calc(100vh - 100px);
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-controls {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  color: #ffffff;
+  width: fit-content;
+  padding: 20px;
+}
+
+.adding-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-form h2 {
+  margin: 0;
+}
+
+.add-form div {
+  display: grid;
+  grid-template-columns: 125px 200px;
+  gap: 10px;
+  align-items: center;
+}
+
+.add-form input,
+.add-form select,
+.add-form input::placeholder {
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 5px;
+  border: none;
+  background-color: #070828;
+  color: #707070;
+}
+
+.add-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #59a3c5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.add-form option {
+  color: #ffffff;
+}
+.add-form button:hover {
+  background-color: #4d4f55;
+  color: #ffffff;
+}
+
+.professor-groups-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.professor-groups-section h2 {
+  margin: 0;
+}
+
+.professor-groups-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.professor-groups-section th,
+.professor-groups-section td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.professor-groups-section thead tr {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.professor-groups-section tbody tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.border {
+  width: 5px;
+  border-radius: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 100%;
+}

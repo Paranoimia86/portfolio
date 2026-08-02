@@ -1,0 +1,137 @@
+.settings {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 200px;
+}
+
+.setting-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 20vh;
+  padding-right: 10px;
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.setting-menu button {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: flex-start;
+  gap: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+}
+.setting-menu button:hover {
+  background-color: rgba(202, 202, 202, 0.2);
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.setting-menu button.active {
+  background-color: #0075ff;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.setting-menu h1 {
+  color: #ffffff;
+  margin-top: 0;
+  display: flex;
+  flex-direction: flex-start;
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  width: 35vh;
+  gap: 20px;
+}
+
+.profile-info p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.profile-info h3 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+}
+
+.settings-form input {
+  background-color: #0f1535;
+  color: #ffffff;
+  border: 1px solid rgb(226, 232, 240, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.settings-form img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 1);
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-info p,
+h3 {
+  overflow-wrap: anywhere;
+}
+
+.name-form {
+  display: flex;
+  flex-direction: row;
+  width: 35vh;
+  gap: 10px;
+}
+
+.name-form input {
+  width: 100%;
+  padding: 10px;
+  background-color: #0f1535;
+  color: #ffffff;
+  border: 1px solid rgb(226, 232, 240, 0.3);
+  border-radius: 10px;
+}
+
+.settings-form textarea {
+  height: 100px;
+  padding: 10px;
+  background-color: #0f1535;
+  color: #ffffff;
+  border: 1px solid rgb(226, 232, 240, 0.3);
+  border-radius: 10px;
+}
+
+.settings-form button {
+  border-radius: 15px;
+  background-color: #22c55e;
+  padding: 10px 20px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.settings-content {
+  padding-left: 20px;
+}
+
+.settings-content h2 {
+  color: #ffffff;
+}

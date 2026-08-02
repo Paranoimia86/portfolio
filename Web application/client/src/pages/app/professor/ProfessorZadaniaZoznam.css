@@ -1,0 +1,76 @@
+.professor-assignments-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 5px;
+  min-height: 100vh;
+  background-color: #5f7195;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.professor-assignments-list h1 {
+  color: #000000;
+  font-size: 32px;
+  padding: 14px 40px;
+  background-color: #ffffff;
+  border-bottom-right-radius: 500px;
+  width: 558px;
+  margin: 0;
+}
+.assignments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.assignment-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a5bac9;
+  padding: 14px 18px;
+  width: 100%;
+  box-sizing: border-box;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.assignment-name {
+  color: #000000;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.edit-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+  background-color: #3dc7cc;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.edit-button:hover {
+  background-color: #3173a3;
+}
+
+.decoration {
+  width: 558px;
+  font-size: 32px;
+  padding: 14px 40px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-top-left-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-top: 5px;
+}

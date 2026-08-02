@@ -14,7 +14,7 @@ const translations = {
     "burger.open": "Otvoriť menu",
     "hero.greeting": "Ahoj, volám sa",
     "hero.desc":
-      "Som absolvent Technickej univerzity v Košiciach s titulom Ing. so záujmom o vývoj webových aplikácií a moderné informačné technológie. Baví ma vytvárať webové riešenia s využitím rôznych nástrojov a technológií, pričom sa neustále snažím rozširovať svoje znalosti a získavať nové skúsenosti. Som pracovitý, zodpovedný a rád pracujem v tíme, kde môžem prispieť svojimi nápadmi a zároveň sa učiť od ostatných. Vo voľnom čase sa venujem športu a osobnému rozvoju, pretože verím, že neustále vzdelávanie a aktívny životný štýl sú dôležitou súčasťou profesijného aj osobného rastu.",
+      "Som absolvent Technickej univerzity v Košiciach s titulom Ing. so záujmom o vývoj webových aplikácií a moderné informačné technológie. Baví ma vytvárať webové riešenia s využitím rôznych nástrojov a technológií, pričom sa neustále snažím rozširovať svoje znalosti a získavať nové skúsenosti. Som pracovitý, zodpovedný a rád by som pracoval v tíme, kde môžem prispieť svojimi nápadmi a zároveň sa učiť od ostatných. Vo voľnom čase sa venujem športu a osobnému rozvoju, pretože verím, že neustále vzdelávanie a aktívny životný štýl sú dôležitou súčasťou profesijného aj osobného rastu.",
     "hero.cta": "Zistiť viac",
     "hero.download": "Stiahnuť CV (PDF)",
     "about.title": "O mne",

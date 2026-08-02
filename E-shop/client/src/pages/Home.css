@@ -1,0 +1,131 @@
+.home-hero {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.home-hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.home-hero-image-active {
+  opacity: 1;
+}
+
+.home-category-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.home-category-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.home-category-banner {
+  position: relative;
+  flex-shrink: 0;
+  width: 180px;
+  height: 140px;
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.home-category-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-category-name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.home-category-products {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+}
+
+.home-product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-product-card:hover {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.home-product-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.home-product-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  color: #8f96a3;
+}
+
+.home-product-name {
+  margin: 0;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.home-product-price {
+  margin: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .home-category-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home-category-banner {
+    width: 100%;
+    height: 160px;
+  }
+
+  .home-category-products {
+    flex-direction: column;
+  }
+}

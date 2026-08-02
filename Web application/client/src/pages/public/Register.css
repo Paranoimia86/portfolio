@@ -1,0 +1,212 @@
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 89vh;
+  background: linear-gradient(
+    to right,
+    #4e55a3 9%,
+    #4e55a3 10%,
+    #2c3066 27%,
+    #070929 38%,
+    #060828 63%,
+    #2c3066 74%,
+    #4e55a3 89%,
+    #4e55a3 90%
+  );
+}
+
+.register-page h2 {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.register-container {
+  text-align: center;
+  background-color: rgba(142, 152, 174, 0.45);
+  border-radius: 15px;
+}
+
+.register-form-hints {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 85px;
+  padding: 50px 40px;
+}
+
+.register-form-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.register-form-inner select {
+  width: 536px;
+  background-color: rgba(7, 8, 40, 0.9);
+  color: #ffffff;
+  border-bottom: 3px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  padding: 14px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.register-form-inner select:hover {
+  background-color: rgba(7, 8, 40, 0.45);
+}
+
+.register-form-inner select option {
+  background-color: rgba(7, 8, 40, 0.9);
+  color: #ffffff;
+}
+
+.form-input {
+  background-color: rgba(7, 8, 40, 0.9);
+  color: #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #000000;
+  border-radius: 5px;
+  width: 508px;
+  padding: 14px;
+  font-size: 20px;
+}
+
+.form-input:hover {
+  background-color: rgba(7, 8, 40, 0.45);
+}
+.form-input::placeholder {
+  color: #ffffff;
+}
+
+.name-fields {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.name-input {
+  background-color: rgba(7, 8, 40, 0.9);
+  color: #ffffff;
+  border-bottom: 3px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  width: 225px;
+  padding: 14px;
+  font-size: 20px;
+  flex: 1;
+}
+
+.name-input:hover {
+  background-color: rgba(7, 8, 40, 0.45);
+}
+.name-input::placeholder {
+  color: #ffffff;
+}
+
+.register-form-inner button {
+  background-color: #0d0e2e;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 536px;
+  margin-top: 45px;
+  margin-bottom: 16px;
+}
+
+.register-form-inner button:hover {
+  background-color: #6d76ac;
+  color: #000000;
+}
+
+.login-link {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 16px;
+}
+
+.login-link a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  cursor: pointer;
+}
+
+.login-link a:hover {
+  text-decoration: underline !important;
+}
+.register-hints {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.register-hints img {
+  width: 344px;
+  height: 261px;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hints-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 344px;
+  height: 261px;
+  background-color: #0d0e2e;
+  border-radius: 15px;
+}
+
+.hints-text p {
+  color: #ffffff;
+  font-size: 24px;
+  padding: 20px;
+  width: 329px;
+  height: 139px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.password-hint {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 20px;
+  width: 329px;
+  height: 139px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.password-warning {
+  color: #ff0000 !important;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}

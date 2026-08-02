@@ -1,0 +1,102 @@
+.userbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+}
+
+.userbar.student {
+  background-color: #000000;
+}
+
+.userbar.professor {
+  background-color: #7997b9;
+}
+
+.userbar.admin {
+  background-color: #212555;
+}
+
+.logo {
+  height: 80px;
+  padding: 10px 0;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.userbar-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-right: 50px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-picture {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  width: 75px;
+  height: 75px;
+}
+
+.user-name-logout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75px;
+}
+
+.user-name-logout span {
+  font-size: 20px !important;
+  font-weight: 900;
+}
+
+.user-name-logout.student {
+  color: #ffffff;
+}
+.user-name-logout.professor {
+  color: #000000;
+}
+
+.user-name-logout.admin {
+  color: #ffffff;
+}
+
+.logout-link {
+  background: none;
+  text-decoration: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.logout-link.student {
+  color: #ffffff;
+}
+
+.logout-link.professor {
+  color: #000000;
+}
+
+.logout-link:hover {
+  font-weight: bold;
+}
+
+.settings-icon {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.settings-icon:hover {
+  background-color: grey;
+  border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+.lc-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.lc-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+  border-radius: 8px !important;
+}
+
+.lc-card-title {
+  margin: 0 0 4px 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.lc-card-stats {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 13px;
+}
